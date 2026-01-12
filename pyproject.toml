@@ -20,3 +20,9 @@ ignore = ["E501"] # Ignore long lines, we let the formatter handle it
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
