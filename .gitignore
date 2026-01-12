@@ -1,7 +1,21 @@
-# Python
+# datasets / large files
+*.zip
+*.h5
+*.hdf5
+data/
+datasets/
+
+# slurm / logs
+slurm-*.out
+*.log
+
+# venv / python cache
+venv/
+.venv/
 __pycache__/
 <<<<<<< HEAD
 *.pyc
+<<<<<<< HEAD
 
 # Virtual environments
 venv/
@@ -30,5 +44,3 @@ mlops_2026_pcam_data/
 # Test / cache
 .pytest_cache/
 .coverage
-
->>>>>>> 7e54849 (gitignore update)
