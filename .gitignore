@@ -1,5 +1,6 @@
 # Python
 __pycache__/
+<<<<<<< HEAD
 *.pyc
 
 # Virtual environments
@@ -13,3 +14,21 @@ venv/
 
 # Logs / outputs
 *.log
+=======
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.env/
+
+# Data files (PCAM is huge)
+*.h5
+*.zip
+mlops_2026_pcam_data/
+
+# Test / cache
+.pytest_cache/
+.coverage
+
+>>>>>>> 7e54849 (gitignore update)
